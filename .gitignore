@@ -1,0 +1,66 @@
+cors/.gradle
+cors/build/
+!cors/gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+cors/.apt_generated
+cors/.classpath
+cors/.factorypath
+cors/.project
+cors/.settings
+cors/.springBeans
+cors/.sts4-cache
+cors/bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+cors/.idea
+cors/*.iws
+cors/*.iml
+cors/*.ipr
+cors/out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### VS Code ###
+.vscode/
+
+
+
+# dependencies
+client/corsclient/node_modules
+client/corsclient/.pnp
+client/corsclient/.pnp.js
+client/corsclient/.yarn/install-state.gz
+
+# testing
+client/corsclient/coverage
+
+# next.js
+client/corsclient/.next/
+client/corsclient/out/
+
+# production
+client/corsclient/build
+
+# misc
+client/corsclient/.DS_Store
+client/corsclient/*.pem
+
+# debug
+client/corsclient/npm-debug.log*
+client/corsclient/yarn-debug.log*
+client/corsclient/yarn-error.log*
+
+# local env files
+client/corsclient/.env*.local
+
+# vercel
+client/corsclient/.vercel
+
+# typescript
+client/corsclient/*.tsbuildinfo
+client/corsclient/next-env.d.ts
